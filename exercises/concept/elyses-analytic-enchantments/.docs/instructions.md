@@ -11,7 +11,7 @@ Elyse wants to know the position (index) of a card in the stack.
 
 ```javascript
 const card = 2;
-getCardPosition([9, 7, 3, 2], card);
+getCardPosition([9, 7, 3, 2], card);asd
 // => 3
 ```
 

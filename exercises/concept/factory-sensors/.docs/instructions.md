@@ -5,7 +5,7 @@ Elena is the new quality manager of a newspaper factory. As she has just arrived
 ## 1. Monitor the humidity level of the room
 
 Your first mission is to write a piece of software to monitor the humidity level of the production room. There is already a sensor connected to the software of the company that returns periodically the humidity percentage of the room.
-
+s
 You need to implement a function in the software that will throw an error if the humidity percentage is too high.
 The function should be called `checkHumidityLevel` and take the humidity percentage as a parameter.
 

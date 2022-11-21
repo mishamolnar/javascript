@@ -59,7 +59,7 @@ Example of analysis using a built-in method:
 
 ```javascript
 const numbers = [1, 'two', 3, 'four'];
-numbers.indexOf('two');
+numbers.indexOf('two');;
 // => 1
 ```
 

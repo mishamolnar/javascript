@@ -16,16 +16,16 @@ export function seeingDouble(deck) {
  * @param {number[]} deck
  * @returns {number[]} deck with triplicate 3s
  */
-export function threeOfEachThree(deck) {
-  return deck.reduce((newDeck, card) => {
-    if (card === 3) {
-      newDeck.push(3, 3, 3);
-    } else {
-      newDeck.push(card);
-    }
-    return newDeck;
-  }, []);
-}
+// export function threeOfEachThree(deck) {
+//   return deck.reduce((newDeck, card) => {
+//     if (card === 3) {
+//       newDeck.push(3, 3, 3);
+//     } else {
+//       newDeck.push(card);
+//     }
+//     return newDeck;
+//   }, []);
+// }
 
 /**
  * Extracts the middle two cards from a deck.
@@ -45,13 +45,13 @@ export function middleTwo(deck) {
  * @returns {number[]} transformed deck
  */
 
-export function sandwichTrick(deck) {
-  const firstCard = deck.shift();
-  const lastCard = deck.pop();
-  const mid = deck.length / 2;
-  deck.splice(mid, 0, lastCard, firstCard);
-  return deck;
-}
+// export function sandwichTrick(deck) {
+//   const firstCard = deck.shift();
+//   const lastCard = deck.pop();
+//   const mid = deck.length / 2;
+//   deck.splice(mid, 0, lastCard, firstCard);
+//   return deck;
+// }
 
 /**
  * Removes every card from the deck except 2s.
